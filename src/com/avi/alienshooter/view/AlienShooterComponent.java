@@ -72,7 +72,8 @@ public class AlienShooterComponent extends Canvas implements KeyListener, Compon
         Bullet bullet = new Bullet();
         bullet.setX(gun.getX());
         bullet.setY(gun.getY());
-        if (bulletList.size() < 5) {
+        //number of bullets
+        if (bulletList.size() < 20) {
             bulletList.addLast(bullet);
         }
         //System.out.println("Bullet created");    

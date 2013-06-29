@@ -12,9 +12,9 @@ import java.awt.Rectangle;
  * @author Avi
  */
 public class AlienShooterConfig {
-    private int gunSpeed = 100;
-    private int alienSpeed = 100;
-    private int bulletSpeed = 1000;
+    private int gunSpeed = 50;
+    private int alienSpeed = 500;
+    private int bulletSpeed = 40;
     //timer interval in milliseconds
     private int timerInterval = 30;
     
