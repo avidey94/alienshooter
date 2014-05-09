@@ -20,10 +20,10 @@ public class AlienShooter {
     private AlienShooterConfig config = null;
     private ImageManager imageManager = null;
     private SoundManager soundManager = null;
+    
     public static void main(String[] args) {
         theInstance = new AlienShooter();
         theInstance.run();
-
     }
 
     public SoundManager getSoundManager() {

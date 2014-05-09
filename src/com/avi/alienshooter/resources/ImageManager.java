@@ -20,6 +20,7 @@ public class ImageManager {
     private Image background = null;
     private Image ground = null;
     private Image fail = null;
+    private Image ryan = null;
     
     public void loadImages() throws Exception {
         //aliens should be 300x400
@@ -61,6 +62,10 @@ public class ImageManager {
         
         url = this.getClass().getResource("fail.png");
         fail = ImageIO.read(url);
+        
+        url = this.getClass().getResource("ryan.png");
+        Image ryan = ImageIO.read(url);
+        alienSet.add(ryan);
     }
 
     public LinkedList<Image> getAlienSet() {
