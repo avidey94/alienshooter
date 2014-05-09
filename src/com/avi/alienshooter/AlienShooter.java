@@ -23,7 +23,6 @@ public class AlienShooter {
     public static void main(String[] args) {
         theInstance = new AlienShooter();
         theInstance.run();
-        System.out.println("hello");
     }
 
     public SoundManager getSoundManager() {
