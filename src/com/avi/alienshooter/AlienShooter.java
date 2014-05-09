@@ -13,7 +13,7 @@ import com.avi.alienshooter.view.AlienWorldView;
  * @author Avi
  */
 public class AlienShooter {
-
+    System.out.println("testing git");
     private static AlienShooter theInstance = null;
     //Linked List of aliens
     private AlienWorldView frame = null;
