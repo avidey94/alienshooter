@@ -13,7 +13,6 @@ import com.avi.alienshooter.view.AlienWorldView;
  * @author Avi
  */
 public class AlienShooter {
-    System.out.println("testing git");
     private static AlienShooter theInstance = null;
     //Linked List of aliens
     private AlienWorldView frame = null;
@@ -24,6 +23,7 @@ public class AlienShooter {
     public static void main(String[] args) {
         theInstance = new AlienShooter();
         theInstance.run();
+        System.out.println("hello");
     }
 
     public SoundManager getSoundManager() {
